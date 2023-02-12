@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: rgb(51, 51, 51);
+}
+
+header {
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+}
+
+header>h1 {
+    text-align: center;
+}
+
+.scoreboard {
+    margin: 20px auto;
+    border: 5px solid white;
+    width: 200px;
+    color: white;
+    font-size: 50px;
+    border-radius: 5px;
+    padding: 15px 20px;
+    text-align: center;
+    position: relative;
+
+}
+
+.badge {
+    background: rgb(219, 92, 92);
+    font-size: 14px;
+    padding: 5px 10px;
+}
+
+
+#user-label {
+    position: absolute;
+    top: 35px;
+    left: -25px;
+}
+
+#comp-label {
+    position: absolute;
+    top: 35px;
+    right: -35px;
+}
+
+
+.result {
+    font-size: 45px;
+    color: white;
+}
+
+.result>p {
+    text-align: center;
+    font-weight: bold;
+}
+
+.choices {
+    margin-top: 30px;
+    text-align: center;
+    padding: 20px;
+}
+
+.choice {
+    border: 4px solid white;
+    margin: 0 20px;
+    padding: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+.choice:hover {
+    cursor: pointer;
+    background: rgb(255, 255, 255);
+
+}
+
+#action-message {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.green-glow {
+    border: 4px solid green;
+    box-shadow: 0 0 10px #31b43a;
+}
+
+.red-glow {
+    border: 4px solid red;
+    box-shadow: 0 0 10px #d01115;
+}
+
+.gray-glow {
+    border: 4px solid #464647;
+    box-shadow: 0 0 10px #25292b;
+}
